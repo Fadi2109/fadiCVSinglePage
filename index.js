@@ -122,6 +122,14 @@ var myProjects = [
     link: "https://fadi2109.github.io/ProCode-ToBeProgrammer/",
     img: "https://usa.bootcampcdn.com/wp-content/uploads/sites/108/2021/03/CDG_blog_post_image_05-1.jpg",
   },
+  {
+    title: "Calculator",
+    desc: "A website of calculator",
+    technologise: ["HTML", "CSS", "JS"],
+    createdAt: "2/4/2023",
+    link: "https://fadi2109.github.io/calculator/",
+    img: "https://media.istockphoto.com/id/1137975153/es/vector/icono-de-calculadora-se%C3%B1al-contable-calcular-el-s%C3%ADmbolo-de-finanzas-vector-de-stock.jpg?s=612x612&w=0&k=20&c=C4mDvCMZ8pfwgBVvX0_fR8pQtRIHlSHhui2k82XRbOM=",
+  },
 ];
 
 function renderPersonalDetails() {
