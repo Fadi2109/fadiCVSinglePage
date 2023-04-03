@@ -136,7 +136,7 @@ var myProjects = [
     technologise: ["HTML", "CSS", "JS"],
     createdAt: "3/4/2023",
     link: "https://fadi2109.github.io/TriviaGame/",
-    img: "https://www.shutterstock.com/image-vector/vector-question-answers-set-neon-style-1986839252",
+    img: "./png-clipart-pub-quiz-game-question-trivia-others-game-question-removebg-preview.png",
   },
 ];
 
