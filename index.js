@@ -8,15 +8,15 @@ var relativePage = "main";
 var personalDetails = [
   {
     item: "Name",
-    value: "Fadi Khier",
+    value: "Safa Khier",
   },
   {
     item: "Tel",
-    value: "+972-53-520-2511",
+    value: "+972-54-392-1507",
   },
   {
     item: "Email",
-    value: "fk.1996.5@gmail.com",
+    value: "safakhier@gmail.com",
   },
   {
     item: "Address",
@@ -26,15 +26,16 @@ var personalDetails = [
 var software = [
   {
     item: "Highly proficient",
-    value: "with Web Applications, Vue, Angular and Office",
+    value:
+      "with C++, Java, Swift, C#, Html, CSS, JavaScript, TypeScript, Linux and Office.",
   },
   {
     item: "Very good",
-    value: "control of Firebase",
+    value: "control of Firebase, SQL.",
   },
   {
     item: "Good control",
-    value: "of Node.js and MongoDB",
+    value: "of Node.js and MongoDB.",
   },
 ];
 var languages = [
@@ -53,83 +54,61 @@ var languages = [
 ];
 var workExperience = [
   {
-    title: "2022 – Today, Carpenter and renovations man",
-    items: ["Carpenter and renovations man"],
-  },
-  {
-    title: "2015 – 2019, Carpentry worker",
+    title: "Jul 2022 – Oct 2022, Bezeq",
     items: [
-      "First begin as CNC machiene worker",
-      "after that planning and supervision",
+      "Preparing infrastructure and installing optical fibers for Bezeq company.",
     ],
   },
   {
-    title: "2014 – 2015, Renovations man",
-    items: ["All renovation works such as plaster, paint, flooring and more"],
+    title: "Jun 2020 – Sep 2020, Kameel Engineers",
+    items: ["Renovations of houses and public places"],
   },
 ];
 var education = [
   {
-    title: "2023 – Full Stack programming course at Coding Academy College",
-    items: ["Frontend: Vue, React, Angular", "Backend: Node.js, MongoDB"],
-  },
-  {
-    title: "2023 – Software Practical Engineer, Ort Brauda College",
-    items: ["Administrative site for a planning and construction company"],
-  },
-  {
-    title: "2014 – 2017, Mechatronics Practical Engineer, Ort Brauda College",
+    title: "2020 – today Software Engineer, Ort Brauda College",
     items: [
-      "I developed textbooks for the public schools based on my analysis of the Arabic language's grammatical structure",
+      "Bachelor of Science in Software Engineering, Expected Graduation: 2024.",
+      "Completed coursework in data structures with a grade of 91, algorithms, introduction to systems programming with a grade of 94, object-oriented programming in Java, and operating systems in Linux.",
+      "Demonstrated a strong understanding of software engineering principles and practices by achieving high grades in all relevant courses.",
+      "Developed the ability to self-learn through personal projects and exploration of new technologies and programming languages.",
+      "Previously served as a college exercise checker for a data structures course at ORT Braude.",
+      "College, demonstrating attention to detail and a commitment to ensuring the quality of coursework.",
     ],
+  },
+  {
+    title: "2019, High School Diploma",
+    items: ["Graduate of Computer Science."],
   },
 ];
 var social = [
   {
     item: "Development",
     value:
-      "and publication of a grammatical analysis method in Arabic helping teachers and students understand the various topics of syntax",
-  },
-  {
-    item: "Volunteering",
-    value: "in helping Arabic students reach matriculation",
-  },
-  {
-    item: "Representative",
-    value: "of the Student Association at TAU",
+      "at ''Melah'' organization in Peqiin, where I participated in the development of the organization's mobile IOS applications.",
   },
   {
     item: "2 years",
-    value:
-      "participation in a 'Perah' project at an innovative school in Yarka",
+    value: "participation in a 'Perah' project at a primary school in Peqiin",
   },
 ];
 
 var myProjects = [
   {
-    title: "To Be Programmer",
-    desc: "A website for a programming course",
-    technologise: ["HTML", "CSS", "JavaScript"],
+    title: "Melah Duty Tracking App",
+    desc: "An application that orginize shifts of the vollantiers in Melah orginization.",
+    technologise: ["Swift", "SwiftUI", "UIKit", "Firebase"],
     createdAt: "1/3/2023",
-    link: "https://fadi2109.github.io/ProCode-ToBeProgrammer/",
-    img: "https://usa.bootcampcdn.com/wp-content/uploads/sites/108/2021/03/CDG_blog_post_image_05-1.jpg",
-  },
-
-  {
-    title: "Calculator",
-    desc: "A website of calculator",
-    technologise: ["HTML", "CSS", "JS"],
-    createdAt: "2/4/2023",
-    link: "https://fadi2109.github.io/calculator/",
-    img: "https://media.istockphoto.com/id/1137975153/es/vector/icono-de-calculadora-se%C3%B1al-contable-calcular-el-s%C3%ADmbolo-de-finanzas-vector-de-stock.jpg?s=612x612&w=0&k=20&c=C4mDvCMZ8pfwgBVvX0_fR8pQtRIHlSHhui2k82XRbOM=",
+    link: "https://apps.apple.com/il/app/%D7%9E%D7%A2%D7%A7%D7%91-%D7%AA%D7%95%D7%A8%D7%A0%D7%95%D7%AA/id6446208557?l=iw",
+    img: "./Snapseed.jpg",
   },
   {
-    title: "Trivia Game",
-    desc: "A website of Trivia Game",
-    technologise: ["HTML", "CSS", "JS"],
-    createdAt: "3/4/2023",
-    link: "https://fadi2109.github.io/TriviaGame/",
-    img: "./png-clipart-pub-quiz-game-question-trivia-others-game-question-removebg-preview.png",
+    title: "Melah Emergency App",
+    desc: "An application that helps people in emergency situations.",
+    technologise: ["Swift", "SwiftUI", "UIKit", "Firebase"],
+    createdAt: "at Development",
+    link: "https://www.wix.com/website-template/view/html/1896?originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Flanding-pages%2Fcoming-soon&tpClick=view_button&esi=3ede5975-fde9-4c6d-b619-698c9b99d26c",
+    img: "./IMG_0488-2.png",
   },
 ];
 
@@ -233,7 +212,7 @@ function renderRelativePage(page = "main") {
     case "main":
       htmlStr += `<div class="row">
       <div class="col-12 bg-primary header d-flex align-items-center p-4">
-        <span class="fs-2 fw-bolder">Fadi Khier CV</span>
+        <span class="fs-2 fw-bolder">Safa Khier CV</span>
 
         <span class="fs-2 ms-auto">
           <Button class="d-flex align-items-center navBtn" onClick="renderRelativePage('projects')">
@@ -248,7 +227,7 @@ function renderRelativePage(page = "main") {
         <div class="col-12 d-flex justify-content-center">
           <img
             class="imageProfile"
-            src="https://i.ibb.co/kyZBRcL/avatar.jpg"
+            src="./WhatsApp Image 2023-04-21 at 19.32.29.jpeg"
             alt="profile image"
           />
         </div>
@@ -314,15 +293,15 @@ function renderRelativePage(page = "main") {
       <div
         class="col-12 bg-dark text-light footer d-flex align-items-center justify-content-center"
       >
-        <span>Created By Fadi Khier &copy;</span>
-        <a href="http://facebook.com " target="_blank">
+        <span>Created By Safa Khier &copy;</span>
+        <a href="https://www.facebook.com/khiersafa?mibextid=LQQJ4d" target="_blank">
           <i class="bi bi-facebook ms-2 text-primary"></i>
         </a>
-        <a href="http://instagram.com" target="_blank">
+        <a href="https://instagram.com/safa_khier?igshid=YmMyMTA2M2Y=" target="_blank">
           <i class="bi bi-instagram ms-2 text-danger"></i>
         </a>
         <a
-          href="https://api.whatsapp.com/send/?phone=972535202511&text&type=phone_number&app_absent=0"
+          href="https://api.whatsapp.com/send/?phone=972543921507&text&type=phone_number&app_absent=0"
           target="_blank"
         >
           <i class="bi bi-whatsapp ms-2 text-success"></i>
@@ -338,7 +317,7 @@ function renderRelativePage(page = "main") {
         <span class="fs-2 ms-auto">
         <Button class="d-flex align-items-center navBtn" onClick="renderRelativePage('main')">
             <span class="material-symbols-outlined fs-2">badge </span>
-            <span class="fs-3">Fadi CV</span>
+            <span class="fs-3">Safa CV</span>
           </Button>
         </span>
       </div>
@@ -351,19 +330,19 @@ function renderRelativePage(page = "main") {
       <div
         class="col-12 bg-dark text-light footer d-flex align-items-center justify-content-center"
       >
-        <span>Created By Fadi Khier &copy;</span>
-        <a href="http://facebook.com " target="_blank">
-          <i class="bi bi-facebook ms-2 text-primary"></i>
-        </a>
-        <a href="http://instagram.com" target="_blank">
-          <i class="bi bi-instagram ms-2 text-danger"></i>
-        </a>
-        <a
-          href="https://api.whatsapp.com/send/?phone=972535202511&text&type=phone_number&app_absent=0"
-          target="_blank"
-        >
-          <i class="bi bi-whatsapp ms-2 text-success"></i>
-        </a>
+      <span>Created By Safa Khier &copy;</span>
+      <a href="https://www.facebook.com/khiersafa?mibextid=LQQJ4d" target="_blank">
+        <i class="bi bi-facebook ms-2 text-primary"></i>
+      </a>
+      <a href="https://instagram.com/safa_khier?igshid=YmMyMTA2M2Y=" target="_blank">
+        <i class="bi bi-instagram ms-2 text-danger"></i>
+      </a>
+      <a
+        href="https://api.whatsapp.com/send/?phone=972543921507&text&type=phone_number&app_absent=0"
+        target="_blank"
+      >
+        <i class="bi bi-whatsapp ms-2 text-success"></i>
+      </a>
       </div>
     </div>`;
       break;
